@@ -9,7 +9,7 @@ require("hardhat-deploy")
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
 const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "0xc7b8d6a987e898556daf089d831b21b1a208fdc81e18e2f5530104c8d4b6b647"
+const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
 
 
